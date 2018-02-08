@@ -1,0 +1,13 @@
+﻿Build started 08/02/2018 10:33:55.
+     1>Project "C:\Users\1613789\Documents\GitHub\Thomas-Was-Late\ThomasWasAlone.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\1613789\Documents\GitHub\Thomas-Was-Late\x64\Debug\ThomasWasAlone.exe" /INCREMENTAL /NOLOGO /LIBPATH:"SFML-2.4.2\lib" "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\1613789\Documents\GitHub\Thomas-Was-Late\x64\Debug\ThomasWasAlone.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\1613789\Documents\GitHub\Thomas-Was-Late\x64\Debug\ThomasWasAlone.lib" /MACHINE:X64 x64\Debug\Main.obj
+         x64\Debug\stdafx.obj
+         x64\Debug\ThomasWasAlone.obj
+     1>ThomasWasAlone.obj : error LNK2005: main already defined in Main.obj
+     1>sfml-graphics.lib(sfml-graphics-2.dll) : fatal error LNK1112: module machine type 'X86' conflicts with target machine type 'x64'
+     1>Done Building Project "C:\Users\1613789\Documents\GitHub\Thomas-Was-Late\ThomasWasAlone.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.07
