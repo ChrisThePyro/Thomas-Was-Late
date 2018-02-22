@@ -33,7 +33,7 @@ private:
 
 	// Spriate and texture for background.
 	Sprite m_BackgroundSprite;
-	Sprite m_BackgroundTexture;
+	Texture m_BackgroundTexture;
 
 	// Is the game currently playing?
 	bool m_Playing = false;
