@@ -100,17 +100,17 @@ FloatRect PlayableCharacter::getFeet()
 	return m_Feet;
 }
 
-FloatRect PlayableCharacter::getFeet()
+FloatRect PlayableCharacter::getHead()
 {
 	return m_Head;
 }
 
-FloatRect PlayableCharacter::getFeet()
+FloatRect PlayableCharacter::getLeft()
 {
 	return m_Left;
 }
 
-FloatRect PlayableCharacter::getFeet()
+FloatRect PlayableCharacter::getRight()
 {
 	return m_Right;
 }
@@ -133,7 +133,7 @@ void PlayableCharacter::stopRight(float position)
 	m_Sprite.setPosition(m_Position);
 }
 
-void PlayableCharacter::stopRight(float position)
+void PlayableCharacter::stopLeft(float position)
 {
 	m_Position.x - position + m_Sprite.getGlobalBounds().width;
 	m_Sprite.setPosition(m_Position);
