@@ -20,6 +20,10 @@ void Engine::draw()
 
 		// TODO: Draw all the stuff.
 
+		// Draw Thomas and Bob.
+		m_Window.draw(m_Thomas.getSprite());
+		m_Window.draw(m_Bob.getSprite());
+
 	}// End single screen.
 	else
 	{
@@ -33,6 +37,12 @@ void Engine::draw()
 		// Switch to the main view for left.
 		m_Window.setView(m_LeftView);
 
+		// TODO: Draw all the stuff.
+
+		// Draw Thomas and Bob.
+		m_Window.draw(m_Thomas.getSprite());
+		m_Window.draw(m_Bob.getSprite());
+
 		// Draw Bob's side of the screen.
 		// Switch to the background view.
 		m_Window.setView(m_BGRightView);
@@ -44,6 +54,10 @@ void Engine::draw()
 		m_Window.setView(m_RightView);
 
 		// TODO: Draw all the stuff.
+
+		// Draw Thomas and Bob.
+		m_Window.draw(m_Thomas.getSprite());
+		m_Window.draw(m_Bob.getSprite());
 
 	}// End split screen.
 

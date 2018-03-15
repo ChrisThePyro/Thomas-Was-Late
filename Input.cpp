@@ -34,5 +34,19 @@ void Engine::input()
 			}
 
 		}// End if keypressed
+
 	}// End while loop for event pooling.
+
+	// Handle input specific to Thomas.
+	if (m_Thomas.handleInput())
+	{
+		// TODO: Play jumping sound.
+	}
+
+	// Handle input specific to Bob.
+	if (m_Bob.handleInput())
+	{
+		// TODO: Play jumping sound.
+	}
+
 }// End input().
