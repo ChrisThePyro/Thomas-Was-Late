@@ -20,7 +20,7 @@ public:
 	const int VERTS_IN_QUAD = 4;
 
 	float getTimeLimit();
-	Vector2f getStartPositon();
+	Vector2f getStartPosition();
 	int** nextLevel(VertexArray& rVaLevel);
 	Vector2i getLevelSize();
 	int getCurrentLevel();
